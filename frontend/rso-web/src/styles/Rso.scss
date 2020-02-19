@@ -1,0 +1,35 @@
+#rso-page{
+  
+    display:flex;
+    flex-direction: column;
+
+    .rso-page-container{
+        display:flex;
+        flex-direction: row;
+        margin-top:2%;
+        margin-left:2%;
+        margin-right:2%;
+        
+        .rso-page-left{
+            height:100%;
+            width:60%;
+        
+            .rso-page-events{
+                margin-top:2%;
+                overflow-y: auto;
+                height:16rem; 
+            
+            }
+            
+        }
+
+        .rso-page-right{
+            width:40%;
+            height:100%;
+            margin-left:1%;
+            margin-right:1%;
+    
+        }
+    }
+
+}

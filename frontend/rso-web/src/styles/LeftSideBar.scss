@@ -1,0 +1,23 @@
+#left-sidebar{
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    .buttonMargin {
+     margin-top: 50px;
+    }
+
+
+    .logoStyle {
+      //background-color: transparent;
+      width: 100px;
+      height: 100px;
+     display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      justify-content: center;
+    }
+}

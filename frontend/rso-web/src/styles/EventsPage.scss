@@ -1,0 +1,45 @@
+.event-container{
+    display: flex;
+    flex-direction: row;
+
+    .event-left{
+        // flex-direction: column;
+        display: inline-block;
+        width:70%;
+        //background:blue;
+
+        .event-content-map{
+            margin-top: 2%;
+            height: 40vh;
+            width: 70%;
+            position: absolute;
+            //background:green;
+        }
+    }
+    .event-right{
+        width:30%;
+        height:90vh;
+        //background:red;
+       // color: blue;
+
+       .event-comment{
+           //background: #grey;
+           display: flex;
+           margin-top: 2%;
+           margin-bottom: 2%;
+           flex-direction: row;
+
+           .event-comment-content{
+               margin-top: 2%;
+               margin-bottom:2%;
+                width:80%;
+           }
+           .event-comment-button{
+                width:20%;
+           }
+
+          
+       }
+        
+    }
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "rso_id": 1,
+        "category": "RSO Event",
+        "title": "The First",
+        "description": "Performing their greatest hits",
+        "starttime":"2016-10-02T13:00:00",
+        "endtime":"2016-10-02T15:00:00",
+        "address":"1234 Peral See Drive",
+        "city":"Dallas",
+        "state":"TX",
+        "lat":28.5922,
+        "lon":-81.3483,
+        "postal_code":"6542"
+    },
+    {
+        "rso_id": 2,
+        "category": "RSO Event",
+        "title": "ASDF ASRAE",
+        "description": "Performing their greatest hits",
+        "starttime":"2016-10-02T13:00:00",
+        "endtime":"2016-10-02T15:00:00",
+        "address":"456 Left Right Ave",
+        "city":"Dallas",
+        "state":"TX",
+        "lat":28.5218,
+        "lon":-81.4635,
+        "postal_code":"6542"
+    }
+  ]
+  

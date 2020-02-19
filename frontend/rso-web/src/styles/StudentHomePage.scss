@@ -1,0 +1,25 @@
+#home-page{
+
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+
+
+  .home-page-sidebar {
+    background-color: #2C2C2C;
+    width:20%;
+  }
+  
+  .home-page-map{
+    height: 40vh;
+    width: 80%;
+    position: absolute;
+    left: 20%;
+  }
+  
+  .home-page-events{
+    flex: 1;
+    margin-top:40vh;
+  }
+
+}

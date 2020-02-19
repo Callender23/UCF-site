@@ -1,0 +1,28 @@
+
+#event-card{
+    
+    margin-bottom: 1%;
+    margin-top:1%;
+    padding-left: 1%;
+    padding-right:3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #EEEEEE;
+    //background: #D7D7D7;
+   
+    .event-title{
+        font-size: 1rem;
+        //color:red;
+        font-weight: bold;
+    }
+
+    .event-rating{
+        float: right;
+    }
+
+    .event-share{
+        float: right;
+    }
+
+
+}

@@ -1,0 +1,52 @@
+#comment{
+
+    display: flex;
+    flex-direction: column;
+    margin-left:3%;
+    margin-right:3%;
+    .event-comment{
+        //background:blue;
+        width:100%;
+    
+        .event-comment-list{
+            width:100%;
+    
+            .event-comment-buttons{
+                display: flex;
+                flex-direction: row;
+    
+                .event-comment-delete{
+                    width:50%;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                .event-comment-delete:hover{
+                    color:red;
+                }
+    
+                .event-comment-edit{
+                    width:50%;
+                    color:red
+                }
+            }
+        }
+    }
+    
+    .event-comment-commentbox{
+        display: flex;
+        width:100%;
+
+        .event-comment-text{
+            width:60%;
+        }
+
+        .event-comment-submit{
+            //background:green;
+            //margin-left:0.25%;
+            width:40%;
+        }
+
+        
+    }
+}
+

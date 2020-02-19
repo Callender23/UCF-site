@@ -1,0 +1,18 @@
+[
+    {
+        "university_id":1,
+        "name":"University of Central Florida"
+    },
+    {
+        "university_id":2,
+        "name":"University of Florida"
+    },
+    {
+        "university_id":3,
+        "name":"University of South Florida"
+    },
+    {
+        "university_id":4,
+        "name":"Florida State University"
+    }
+]

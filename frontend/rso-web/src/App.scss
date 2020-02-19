@@ -1,0 +1,33 @@
+.center {
+  text-align: center;
+}
+
+.registerHeader {
+  text-align: center;
+}
+
+.background {
+  background-image: url("./assets/socialpic.jpg");
+  //height: 100vh;
+  //background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.disp {
+  display: none;
+}
+
+.alreadyAccountBtn {
+  padding: 10px 0 0
+}
+
+.registerBox {
+  width : 500px;
+  padding: 20px 20px 20px;
+  margin: 80px auto;
+  background-color: lightblue;
+  border-style: solid;
+}

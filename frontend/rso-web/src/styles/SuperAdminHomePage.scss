@@ -1,0 +1,57 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.super-admin-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  vertical-align: center;
+}
+
+.bigContainer{
+  //width:20%;
+  //width:50%;
+  //height:50%;
+  margin-top:12%;
+}
+
+.unapproved-event-container{
+  display:flex;
+  flex-direction: row;
+
+    .unapproved-event-title{
+      margin-top: 0.5%;
+    }
+
+    .unapproved-event-button{
+      margin-left: 1%;
+      justify-content: flex-end;
+    }
+
+
+  }
+
+
+.university-container{
+  //background:blue;
+}
+.university-list{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  //background: blue;
+}
